@@ -459,19 +459,7 @@ const Content = () => {
                 </div>
               </div>
               <hr className="my-0" />
-              <div className="flex justify-center px-4 pb-2 mt-auto -mx-4 bottom-3">
-                <h4 className=" text-[12px] font-semibold text-gray-600 ">
-                  Made with <FaHeart className="inline-block " /> by{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.linkedin.com/in/prajwalgaikwad/"
-                    className="cursor-pointer hover:underline hover:text-blue-500"
-                  >
-                    Prajwal Gaikwad.
-                  </a>
-                </h4>
-              </div>
+             
             </div>
           </div>
         </div>
@@ -499,5 +487,6 @@ const ReactFlowProviderContent = () => {
     </ReactFlowProvider>
   );
 };
+
 
 export default ReactFlowProviderContent;
